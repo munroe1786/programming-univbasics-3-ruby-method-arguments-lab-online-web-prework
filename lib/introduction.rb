@@ -18,9 +18,10 @@ end
 #name = "Edwin"
 introduction_with_language_optional("Edwin")
 
-def introduction_with_language_optional_or_defined (name, language)
+def introduction_with_language_optional_or_defined (name, language="Ruby")
   puts "Hi, my name is #{name} and I am learning to program in #{language}."
 end
 
-name = "Edwin"
-language = "Python"
+#name = "Edwin"
+#language = "Python"
+introduction_with_language_optional_or_defined("Edwin")
